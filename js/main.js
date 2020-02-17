@@ -1,6 +1,10 @@
 var nome = prompt ('Nome');
 document.getElementById('nome').innerHTML = nome;
-console.log(nome);
+// console.log(nome);
 var cognome = prompt ('Cognome');
-// var colorePreferito = ('Colore preferito');
+document.getElementById('cognome').innerHTML = cognome;
+// console.log(cognome);
+var colorePreferito = prompt ('Colore preferito');
+document.getElementById('colore-preferito').innerHTML = colorePreferito;
+// console.log(colorePreferito);
 document.getElementById('container').setAttribute('class' , 'visible');
