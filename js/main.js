@@ -1,10 +1,14 @@
 var nome = prompt ('Nome');
-document.getElementById('nome').innerHTML = nome;
+// document.getElementById('nome').innerHTML = nome;
 // console.log(nome);
 var cognome = prompt ('Cognome');
-document.getElementById('cognome').innerHTML = cognome;
+// document.getElementById('cognome').innerHTML = cognome;
 // console.log(cognome);
 var colorePreferito = prompt ('Colore preferito');
-document.getElementById('colore-preferito').innerHTML = colorePreferito;
+// document.getElementById('colore-preferito').innerHTML = colorePreferito;
 // console.log(colorePreferito);
+var data = new Date();
+var data = data.getFullYear();
+// document.getElementById('data').innerHTML = data;
+document.getElementById('nome','cognome','colore-preferito','data').innerHTML = nome + ';' + cognome + ';' + colorePreferito + ';' + data;
 document.getElementById('container').setAttribute('class' , 'visible');

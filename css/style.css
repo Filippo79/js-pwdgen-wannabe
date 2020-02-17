@@ -8,7 +8,7 @@
 }
 #nome {
     font-size: 40px;
-    color: brown;
+    color: green;
 }
 #cognome {
     font-size: 40px;
@@ -20,11 +20,14 @@
     color: darkgreen;
 }
 
+h1 {
+    color: aqua;
+}
+
 #container.visible {
     display: block;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-
 }
