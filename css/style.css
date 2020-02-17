@@ -4,13 +4,27 @@
     box-sizing: border-box;
 }
 #container {
+    display: none;
+}
+#nome {
+    font-size: 40px;
+    color: brown;
+}
+#cognome {
+    font-size: 40px;
+    color: blue;
+}
+
+#colore-preferito {
+    font-size: 40px;
+    color: darkgreen;
+}
+
+#container.visible {
+    display: block;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    display: none;
-}
 
-#container.visible {
-    display: block; 
 }
